@@ -11,11 +11,14 @@ public class ActivateTeleportationRay : MonoBehaviour
 
     public InputActionProperty rightActivate;
 
+    public XRRayInteractor rightRay;
+
     // Update is called once per frame
     void Update()
     {
-        float value = rightActivate.action.ReadValue<float>();
-        Debug.Log(value);
+        // bool isRightRayHovering = rightRay.TryGetHitInfo(out Vector3 rightPos, out Vector3 rightNormal, out int rightNumber, out bool rightValid);
+
+
         rightTeleportation.SetActive(rightActivate.action.ReadValue<float>() > 0.1f);
     }
 }
