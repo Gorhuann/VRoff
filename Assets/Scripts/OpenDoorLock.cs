@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-
-using UnityEngine;
-
 public class OpenDoorLock : MonoBehaviour
 {
-    public string boolName = "open"; 
+    public string boolName = "open";
     private bool isDoorOpen = false;
     private Animator doorRightAnimator;
 
@@ -21,17 +18,17 @@ public class OpenDoorLock : MonoBehaviour
         }
     }
 
-    public void ToggleDoorOpen(string enteredCode, string correctCode)
+    public void ToggleDoorOpen()
     {
-        if (!isDoorOpen && enteredCode == correctCode)
+        if (!isDoorOpen)
         {
+            Debug.Log("Opening the door!");
             OpenDoor();
         }
     }
 
     private void OpenDoor()
     {
-        // Play the "Open" animation
         if (doorRightAnimator != null)
         {
             doorRightAnimator.SetBool(boolName, true);

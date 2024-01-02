@@ -3,24 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class DropZone : XRBaseInteractable
+public class DropZone : MonoBehaviour
 {
-    // Tag of the expected object on this drop zone (e.g., "Key")
     public string expectedObjectTag;
-
-    // Reference to the puzzle manager
     public PuzzleManager puzzleManager;
 
-    protected override void OnSelectEntered(XRBaseInteractor interactor)
+    private void OnTriggerEnter(Collider other)
     {
-        base.OnSelectEntered(interactor);
-
-        // Check if the object entering the collision is of the expected type
-        if (interactor.selectTarget.CompareTag(expectedObjectTag))
+        if (other.CompareTag(expectedObjectTag))
         {
-            // The object is correct, you can trigger actions here
-            Debug.Log("Correct object dropped on the drop zone!");
-            puzzleManager.PuzzleSolved(); // Call the puzzle solved function
+            Debug.Log("Correct object entered drop zone: " + expectedObjectTag);
+            puzzleManager.PuzzleSolved(expectedObjectTag);
+        }
+        else
+        {
+            Debug.LogWarning("Incorrect object entered drop zone. Expected: " + expectedObjectTag + ", Actual: " + other.tag);
+            // You may want to trigger some negative feedback or take specific actions for an incorrect placement
         }
     }
 }
+

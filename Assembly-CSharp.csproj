@@ -47,10 +47,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\PuzzleManager.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+     <Compile Include="Assets\Scripts\DroppableObject.cs" />
      <Compile Include="Assets\Scripts\OpenDoor.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Scripts\OpenDoorLock.cs" />
+     <Compile Include="Assets\Scripts\DropZone.cs" />
      <Compile Include="Assets\Scripts\KeypadNumbers.cs" />
      <Compile Include="Assets\Scripts\ActivateTeleportationRay.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

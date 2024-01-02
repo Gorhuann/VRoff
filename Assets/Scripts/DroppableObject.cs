@@ -3,30 +3,39 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class DroppableObject : XRGrabInteractable
+public class DroppableObject : MonoBehaviour
 {
-    // Tag of the object (e.g., "Key")
     public string objectTag;
-
-    // Reference to the puzzle manager
     public PuzzleManager puzzleManager;
 
-    protected override void OnSelectEntered(XRBaseInteractor interactor)
-    {
-        base.OnSelectEntered(interactor);
+    private bool isGrabbed = false;
 
-        // Player picked up the object, do what needs to be done here (disable gravity, etc.)
+    private void Update()
+    {
+        if (isGrabbed && !CheckGrabInput())
+        {
+            Debug.Log("Object released");
+            if (puzzleManager != null)
+            {
+                puzzleManager.CheckObject(objectTag);
+            }
+
+            isGrabbed = false;
+        }
     }
 
-    protected override void OnSelectExited(XRBaseInteractor interactor)
+    private bool CheckGrabInput()
     {
-        base.OnSelectExited(interactor);
+        // Logique pour vérifier si l'objet est encore saisi (à compléter selon vos besoins)
+        return false;
+    }
 
-        // Player released the object
-        // Check if the correct drop zone has been reached
-        if (puzzleManager != null)
+    private void OnTriggerEnter(Collider other)
+    {
+        if (CheckGrabInput())
         {
-            puzzleManager.CheckObject(this.objectTag);
+            isGrabbed = true;
+            Debug.Log("Object grabbed");
         }
     }
 }

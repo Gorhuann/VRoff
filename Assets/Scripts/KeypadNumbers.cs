@@ -22,7 +22,6 @@ public class KeypadNumbers : MonoBehaviour
 
     public OpenDoorLock doorLock; // Reference to the OpenDoorLock script
 
-    // Define color for correct and incorrect codes
     public Color correctColor = Color.green;
     public Color incorrectColor = Color.red;
 
@@ -39,36 +38,32 @@ public class KeypadNumbers : MonoBehaviour
             m_Text.text = m_Count.ToString();
     }
 
-public void Check()
-{
-    Debug.Log("Checking code: " + m_Text.text);
-
-    // Check if the entered code is correct
-    bool isCodeCorrect = (m_Text.text == code);
-
-    // Change text color based on correctness
-    m_Text.color = isCodeCorrect ? correctColor : incorrectColor;
-
-    // If the code is correct, perform further actions
-    if (isCodeCorrect)
+    public void Check()
     {
-        Debug.Log("Code is correct!");
-        AccessGranted.Invoke();
+        Debug.Log("Checking code: " + m_Text.text);
 
-        //Open the door when the code is right
-        if (doorLock != null)
+        bool isCodeCorrect = (m_Text.text == code);
+
+        m_Text.color = isCodeCorrect ? correctColor : incorrectColor;
+
+        if (isCodeCorrect)
         {
-            Debug.Log("Calling ToggleDoorOpen");
-            doorLock.ToggleDoorOpen(m_Text.text, code); // Pass entered code and correct code
+            Debug.Log("Code is correct!");
+            AccessGranted.Invoke(); // Invoke the AccessGranted event
+
+            // Open the door when the code is correct
+            if (doorLock != null)
+            {
+                Debug.Log("Calling ToggleDoorOpen");
+                doorLock.ToggleDoorOpen(); // No need to pass the code in this example
+            }
         }
     }
-}
 
     public void Clear()
     {
         m_Count = "";
         m_Text.text = m_Count.ToString();
-        // Reset text color when clearing the input
         m_Text.color = Color.white;
     }
 }

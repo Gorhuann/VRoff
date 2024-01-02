@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Trophy1
+  - Trophy2
+  - Trophy3
   layers:
   - Default
   - TransparentFX

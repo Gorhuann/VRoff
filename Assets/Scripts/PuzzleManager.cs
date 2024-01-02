@@ -4,34 +4,64 @@ using UnityEngine;
 
 public class PuzzleManager : MonoBehaviour
 {
-    // Add as many puzzles as needed
-    private bool puzzle1Solved = false;
-    private bool puzzle2Solved = false;
+    private bool trophy1Solved = false;
+    private bool trophy2Solved = false;
+    private bool trophy3Solved = false;
 
-    // Called when a puzzle is solved
-    public void PuzzleSolved()
+    public ExitDoorOpener exitDoorOpener; // Référence au script ExitDoorOpener
+
+    void Start()
     {
-        // Update the state of the puzzle
-        puzzle1Solved = true; // Adapted to your specific logic
+        // Initialiser la référence à ExitDoorOpener
+        exitDoorOpener = GetComponent<ExitDoorOpener>();
 
-        // Add necessary code for puzzle resolution here
-
-        // Check if all puzzles are solved
-        if (puzzle1Solved && puzzle2Solved /* Add other puzzles here if needed */)
+        // Vérifier si la référence est null et logguer une erreur si nécessaire
+        if (exitDoorOpener == null)
         {
-            // All puzzles are solved, unlock the final door or perform other actions
-            Debug.Log("All puzzles solved!");
+            Debug.LogError("ExitDoorOpener reference is null in PuzzleManager!");
         }
     }
 
-    // Check if the dropped object is correct
+    public void PuzzleSolved(string trophyTag)
+    {
+        switch (trophyTag)
+        {
+            case "Trophy1":
+                trophy1Solved = true;
+                break;
+            case "Trophy2":
+                trophy2Solved = true;
+                break;
+            case "Trophy3":
+                trophy3Solved = true;
+                break;
+            default:
+                Debug.LogWarning("Unknown trophy tag: " + trophyTag);
+                return;
+        }
+
+        Debug.Log("Puzzle solved: " + trophyTag);
+
+        // Vérifier si tous les trophées sont résolus
+        if (trophy1Solved && trophy2Solved && trophy3Solved)
+        {
+            Debug.Log("All puzzles solved!");
+            OpenExitDoors();
+        }
+    }
+
     public void CheckObject(string objectTag)
     {
-        // Implement logic to check if the object is correct
-        // For example, compare it to the current puzzles and call PuzzleSolved() if it is
-        if (objectTag == "Key")
+        // Implémentez la logique pour vérifier l'objet ici
+        Debug.Log("Checking object: " + objectTag);
+    }
+
+    private void OpenExitDoors()
+    {
+        // Ouvrir les portes de sortie lorsque tous les trophées sont résolus
+        if (exitDoorOpener != null)
         {
-            PuzzleSolved();
+            exitDoorOpener.ToggleExitDoorOpen();
         }
     }
 }
