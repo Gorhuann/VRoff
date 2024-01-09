@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 819
+    x: 788
     y: 51
-    width: 1733
+    width: 1764
     height: 1341
   m_ShowMode: 4
   m_Title: Hierarchy
@@ -43,12 +43,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1733
+    width: 1764
     height: 1291
+<<<<<<< HEAD
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
   controlID: 176
+=======
+  m_MinSize: {x: 679, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
+  vertical: 0
+  controlID: 158
+>>>>>>> parent of 586188f6 (add cable and failed)
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,9 +71,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1137
+    x: 1156
     y: 0
-    width: 596
+    width: 608
     height: 1291
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
@@ -92,7 +99,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 385
+    width: 394
     height: 766
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -111,24 +118,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 766
-    width: 1137
+    width: 1156
     height: 525
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +156,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1733
+    width: 1764
     height: 1341
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -174,7 +181,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1733
+    width: 1764
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -199,7 +206,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 1321
-    width: 1733
+    width: 1764
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -222,12 +229,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1137
+    width: 1156
     height: 1291
+<<<<<<< HEAD
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
+=======
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
+>>>>>>> parent of 586188f6 (add cable and failed)
   vertical: 1
-  controlID: 17
+  controlID: 77
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,12 +259,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1137
+    width: 1156
     height: 766
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 18
+  controlID: 78
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,9 +280,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 385
+    x: 394
     y: 0
-    width: 752
+    width: 762
     height: 766
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -386,7 +398,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -35304
+  m_LastSelectedObjectID: -52640
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -407,9 +419,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 819
+    x: 788
     y: 847
-    width: 1136
+    width: 1155
     height: 504
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -425,22 +437,37 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scenes
+=======
+    - Assets/Scripts
+>>>>>>> parent of 586188f6 (add cable and failed)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Scenes
+=======
+  - Assets/Scripts
+>>>>>>> parent of 586188f6 (add cable and failed)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\yes\Documents\GitHub\VRoff
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 160}
     m_SelectedIDs: 36590000
     m_LastClickedID: 22838
     m_ExpandedIDs: 00000000185900002a59000036590000985c000006610000d6610000e261000052680000566800006c6800008097000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 88580000
+    m_LastClickedID: 22664
+    m_ExpandedIDs: 000000009a580000
+>>>>>>> parent of 586188f6 (add cable and failed)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Sci-Fi Styled Modular Pack
@@ -468,7 +495,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000018590000
+=======
+    m_ExpandedIDs: 000000009a580000
+>>>>>>> parent of 586188f6 (add cable and failed)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -493,10 +524,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 6032ffff
+    m_LastClickedInstanceID: -52640
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000c05a0000525200000000000024a3000018a30000
+    m_ExpandedInstanceIDs: c6230000c05a000052520000fe5400000000000024a3000018a30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Modern Vending Machine Front (Lime)
@@ -544,9 +575,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1956
+    x: 1944
     y: 81
-    width: 595
+    width: 607
     height: 1270
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -581,31 +612,37 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 819
+    x: 788
     y: 81
-    width: 384
+    width: 393
     height: 745
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 6c51ffffa25cffffc863ffff126dffff6e7dffff3a82ffff3e82ffffd682ffff0883ffffde8cffff7e9bffffb69cffffb8a7ffff76b4ffff68fbffff04520000165200007a520000ca5200007a5300009a950000e0a5000006aa000030ab0000
+=======
+      m_SelectedIDs: 78f0ffff
+      m_LastClickedID: -3976
+      m_ExpandedIDs: 68fbffffdc510000fc5100000e520000945200003a5300007e53000020540000a0540000
+>>>>>>> parent of 586188f6 (add cable and failed)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Cube
+        m_OriginalName: Cube
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 21110
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -635,9 +672,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1204
+    x: 1182
     y: 81
-    width: 750
+    width: 760
     height: 745
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -651,9 +688,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -7.4617667, y: 7.1064377, z: -9.254088}
     speed: 2
     m_Value: {x: -7.4617667, y: 7.1064377, z: -9.254088}
+=======
+    m_Target: {x: -8.202446, y: 1.0436543, z: 10.746616}
+    speed: 2
+    m_Value: {x: -8.202446, y: 1.0436543, z: 10.746616}
+>>>>>>> parent of 586188f6 (add cable and failed)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -700,6 +743,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.100728154, y: -0.31769294, z: -0.03396282, w: -0.9422217}
     speed: 2
     m_Value: {x: 0.09931421, y: -0.31774196, z: -0.033486065, w: -0.942367}
@@ -707,6 +751,15 @@ MonoBehaviour:
     m_Target: 14.295386
     speed: 2
     m_Value: 14.295386
+=======
+    m_Target: {x: 0.0018397773, y: -0.9981086, z: 0.048255797, w: 0.038053177}
+    speed: 2
+    m_Value: {x: 0.0018397764, y: -0.99810815, z: 0.048255775, w: 0.03805316}
+  m_Size:
+    m_Target: 0.15082076
+    speed: 2
+    m_Value: 0.15082076
+>>>>>>> parent of 586188f6 (add cable and failed)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -751,9 +804,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1204
+    x: 1182
     y: 81
-    width: 750
+    width: 760
     height: 745
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -762,7 +815,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 750, y: 724}
+  m_TargetSize: {x: 760, y: 724}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -777,8 +830,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -375
-    m_HBaseRangeMax: 375
+    m_HBaseRangeMin: -380
+    m_HBaseRangeMax: 380
     m_VBaseRangeMin: -362
     m_VBaseRangeMax: 362
     m_HAllowExceedBaseRangeMin: 1
@@ -798,23 +851,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 750
+      width: 760
       height: 724
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 375, y: 362}
+    m_Translation: {x: 380, y: 362}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -375
+      x: -380
       y: -362
-      width: 750
+      width: 760
       height: 724
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 750, y: 745}
+  m_LastWindowPixelSize: {x: 760, y: 745}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
