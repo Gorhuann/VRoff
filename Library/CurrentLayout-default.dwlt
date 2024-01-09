@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1764
     height: 1341
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -46,6 +46,7 @@ MonoBehaviour:
     width: 1764
     height: 1291
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
@@ -56,6 +57,12 @@ MonoBehaviour:
   vertical: 0
   controlID: 158
 >>>>>>> parent of 586188f6 (add cable and failed)
+=======
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 155
+>>>>>>> parent of c12509b4 (adding assets)
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -75,8 +82,8 @@ MonoBehaviour:
     y: 0
     width: 608
     height: 1291
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -101,8 +108,8 @@ MonoBehaviour:
     y: 0
     width: 394
     height: 766
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -232,7 +239,11 @@ MonoBehaviour:
     width: 1156
     height: 1291
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 402, y: 492}
+=======
+  m_MinSize: {x: 403, y: 492}
+>>>>>>> parent of c12509b4 (adding assets)
   m_MaxSize: {x: 10001, y: 14042}
 =======
   m_MinSize: {x: 403, y: 342}
@@ -261,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 1156
     height: 766
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 78
 --- !u!114 &11
@@ -435,28 +446,37 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - Assets/Scenes
 =======
     - Assets/Scripts
 >>>>>>> parent of 586188f6 (add cable and failed)
+=======
+    - Assets/Art/Models
+>>>>>>> parent of c12509b4 (adding assets)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scenes
 =======
   - Assets/Scripts
 >>>>>>> parent of 586188f6 (add cable and failed)
+=======
+  - Assets/Art/Models
+>>>>>>> parent of c12509b4 (adding assets)
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\yes\Documents\GitHub\VRoff
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 160}
     m_SelectedIDs: 36590000
@@ -468,20 +488,26 @@ MonoBehaviour:
     m_LastClickedID: 22664
     m_ExpandedIDs: 000000009a580000
 >>>>>>> parent of 586188f6 (add cable and failed)
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 7c590000
+    m_LastClickedID: 22908
+    m_ExpandedIDs: 00000000545900006459000000ca9a3b
+>>>>>>> parent of c12509b4 (adding assets)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Sci-Fi Styled Modular Pack
-      m_OriginalName: Sci-Fi Styled Modular Pack
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 26710
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -496,10 +522,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000018590000
 =======
     m_ExpandedIDs: 000000009a580000
 >>>>>>> parent of 586188f6 (add cable and failed)
+=======
+    m_ExpandedIDs: 0000000054590000
+>>>>>>> parent of c12509b4 (adding assets)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -530,18 +560,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000c05a000052520000fe5400000000000024a3000018a30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Modern Vending Machine Front (Lime)
-      m_OriginalName: Modern Vending Machine Front (Lime)
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 24872
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -619,6 +649,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
       m_SelectedIDs: 
@@ -629,6 +660,12 @@ MonoBehaviour:
       m_LastClickedID: -3976
       m_ExpandedIDs: 68fbffffdc510000fc5100000e520000945200003a5300007e53000020540000a0540000
 >>>>>>> parent of 586188f6 (add cable and failed)
+=======
+      scrollPos: {x: 0, y: 92}
+      m_SelectedIDs: 40d0ffff
+      m_LastClickedID: -12224
+      m_ExpandedIDs: 24d0ffff28d0ffff2cd0ffff30d0ffff34d0ffff38d0ffff3cd0ffff40d0ffff44d0ffff9aecffff9eecffffa2ecffffa6ecffffaaecffffaeecffffb2ecffffb6ecffffbaecffffbeecffffc2ecffffc6ecffffcaecffffceecffffd6ecffff68fbffffdc51000088520000d6520000c8530000fa53000080540000
+>>>>>>> parent of c12509b4 (adding assets)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Cube
@@ -689,6 +726,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -7.4617667, y: 7.1064377, z: -9.254088}
     speed: 2
     m_Value: {x: -7.4617667, y: 7.1064377, z: -9.254088}
@@ -697,6 +735,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -8.202446, y: 1.0436543, z: 10.746616}
 >>>>>>> parent of 586188f6 (add cable and failed)
+=======
+    m_Target: {x: -6.6257906, y: -3.8918366, z: 6.934252}
+    speed: 2
+    m_Value: {x: -6.6257906, y: -3.8918366, z: 6.934252}
+>>>>>>> parent of c12509b4 (adding assets)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -744,12 +787,17 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.100728154, y: -0.31769294, z: -0.03396282, w: -0.9422217}
+=======
+    m_Target: {x: 0.076999746, y: -0.8755504, z: 0.14877103, w: 0.45316094}
+>>>>>>> parent of c12509b4 (adding assets)
     speed: 2
-    m_Value: {x: 0.09931421, y: -0.31774196, z: -0.033486065, w: -0.942367}
+    m_Value: {x: 0.07699955, y: -0.8755482, z: 0.14877066, w: 0.4531598}
   m_Size:
-    m_Target: 14.295386
+    m_Target: 10.079805
     speed: 2
+<<<<<<< HEAD
     m_Value: 14.295386
 =======
     m_Target: {x: 0.0018397773, y: -0.9981086, z: 0.048255797, w: 0.038053177}
@@ -760,6 +808,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 0.15082076
 >>>>>>> parent of 586188f6 (add cable and failed)
+=======
+    m_Value: 10.079805
+>>>>>>> parent of c12509b4 (adding assets)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -893,9 +944,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 819
+    x: 788
     y: 847
-    width: 1136
+    width: 1155
     height: 504
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20
