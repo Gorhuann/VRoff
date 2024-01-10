@@ -228,76 +228,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
---- !u!1 &19106161 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7953085446890567447, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-  m_PrefabInstance: {fileID: 1070088654}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &19106163
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19106161}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!59 &19106164
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19106161}
-  m_ConnectedBody: {fileID: 1140613663}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.0103121605, z: 0.0000000040981627}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_Limits:
-    min: -160
-    max: 7.54
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!65 &19106165
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19106161}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.003, y: 0.003, z: 0.003}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &21881411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,15 +1244,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.70906097, z: 0.69208497}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 13
-=======
   m_RootOrder: 21
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
-  m_RootOrder: 22
->>>>>>> parent of c12509b4 (adding assets)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &132951639
 PrefabInstance:
@@ -1698,11 +1620,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!4 &295590810 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2482899181748840356, guid: 7a0e815d1bba5804baaddc54f3b9d5bc, type: 3}
@@ -1717,11 +1634,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 18
-=======
-      value: 19
->>>>>>> parent of c12509b4 (adding assets)
       objectReference: {fileID: 0}
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1769,10 +1682,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!4 &357904193 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4616165200164398447, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
@@ -2088,15 +1997,7 @@ Transform:
   m_LocalScale: {x: 0.87137, y: 1.5009445, z: 0.16615}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 14
-=======
   m_RootOrder: 22
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
-  m_RootOrder: 23
->>>>>>> parent of c12509b4 (adding assets)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &400408442
 MonoBehaviour:
@@ -2111,11 +2012,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exitDoorOpener: {fileID: 400408435}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &408915659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2302,79 +2198,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1546792799064229384, guid: 2cfa9364efdc1ef4f895a0f625e04d4e, type: 3}
   m_PrefabInstance: {fileID: 424515410}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
---- !u!1 &448776571 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1790183945725220954, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-  m_PrefabInstance: {fileID: 1070088654}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &448776572
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448776571}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!59 &448776573
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448776571}
-  m_ConnectedBody: {fileID: 2036503313}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.00999999, z: -0.000000006519258}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_Limits:
-    min: -160
-    max: 7.54
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!65 &448776575
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448776571}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.003, y: 0.003, z: 0.003}
-  m_Center: {x: 0, y: 0, z: 0}
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &499429474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2437,10 +2260,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1546792799064229384, guid: 2cfa9364efdc1ef4f895a0f625e04d4e, type: 3}
   m_PrefabInstance: {fileID: 499429474}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &508869750
 GameObject:
   m_ObjectHideFlags: 0
@@ -3927,81 +3746,6 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
---- !u!1 &600410930 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2595846556576974389, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-  m_PrefabInstance: {fileID: 1070088654}
-  m_PrefabAsset: {fileID: 0}
---- !u!59 &600410932
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600410930}
-  m_ConnectedBody: {fileID: 19106163}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.007042446, z: 0.0000000014362554}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_Limits:
-    min: -160
-    max: 7.54
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!54 &600410933
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600410930}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &600410934
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600410930}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.003, y: 0.003, z: 0.003}
-  m_Center: {x: 0, y: 0, z: 0}
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &614205627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4126,10 +3870,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1546792799064229384, guid: 2cfa9364efdc1ef4f895a0f625e04d4e, type: 3}
   m_PrefabInstance: {fileID: 614746250}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &617767179
 GameObject:
   m_ObjectHideFlags: 0
@@ -4840,15 +4580,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3a84ac6686b21d04e936daf0e4898864, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-<<<<<<< HEAD
-      value: 9
-=======
       value: 10
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
-      value: 11
->>>>>>> parent of c12509b4 (adding assets)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3a84ac6686b21d04e936daf0e4898864, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6579,11 +6311,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6ddb0157e84fd8a488737afdb317d277, type: 3}
   m_PrefabInstance: {fileID: 972815961}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &973120343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6593,11 +6320,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 19
-=======
-      value: 20
->>>>>>> parent of c12509b4 (adding assets)
       objectReference: {fileID: 0}
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6645,10 +6368,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &997027758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5760358646234253132, guid: 7f1b8a5a69a00ce4f96a3d3926f735b4, type: 3}
@@ -6735,11 +6454,6 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -4389404890075739593, guid: f09ea1c03649bc845afa382f8d995747, type: 3}
   m_PrefabInstance: {fileID: 510032327}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!4 &1043513995 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1546792799064229384, guid: 2cfa9364efdc1ef4f895a0f625e04d4e, type: 3}
@@ -6898,71 +6612,8 @@ Transform:
   - {fileID: 96081233}
   - {fileID: 583636647}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1070088654
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.34103024
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 12.24
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-      propertyPath: m_Name
-      value: mister-noodle-cable
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &1088061445 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f09ea1c03649bc845afa382f8d995747, type: 3}
@@ -7088,15 +6739,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3607ea19a50eaa14ba1328dc57ce79da, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-<<<<<<< HEAD
-      value: 10
-=======
       value: 12
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
-      value: 13
->>>>>>> parent of c12509b4 (adding assets)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3607ea19a50eaa14ba1328dc57ce79da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7152,9 +6795,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3607ea19a50eaa14ba1328dc57ce79da, type: 3}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 --- !u!1 &1102544250 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 3607ea19a50eaa14ba1328dc57ce79da, type: 3}
@@ -7222,8 +6862,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &1102672767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7286,10 +6924,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1546792799064229384, guid: 2cfa9364efdc1ef4f895a0f625e04d4e, type: 3}
   m_PrefabInstance: {fileID: 1102672767}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &1108595417
 GameObject:
   m_ObjectHideFlags: 0
@@ -7425,167 +7059,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.161, y: 0.104}
   m_SizeDelta: {x: 2.8213, y: 1.7393}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
---- !u!1 &1119268828 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7036213049465896255, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-  m_PrefabInstance: {fileID: 1070088654}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1119268830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119268828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2038704371}
-  m_Colliders: []
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_InteractionLayers:
-    m_Bits: 12
-  m_DistanceCalculationMode: 1
-  m_SelectMode: 0
-  m_CustomReticle: {fileID: 0}
-  m_AllowGazeInteraction: 0
-  m_AllowGazeSelect: 0
-  m_OverrideGazeTimeToSelect: 0
-  m_GazeTimeToSelect: 0.5
-  m_OverrideTimeToAutoDeselectGaze: 0
-  m_TimeToAutoDeselectGaze: 3
-  m_AllowGazeAssistance: 0
-  m_FirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Activated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Deactivated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_StartingHoverFilters: []
-  m_StartingSelectFilters: []
-  m_StartingInteractionStrengthFilters: []
-  m_OnFirstHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnLastHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectCanceled:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnActivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnDeactivate:
-    m_PersistentCalls:
-      m_Calls: []
-  m_AttachTransform: {fileID: 0}
-  m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
-  m_MatchAttachPosition: 1
-  m_MatchAttachRotation: 1
-  m_SnapToColliderVolume: 1
-  m_ReinitializeDynamicAttachEverySingleGrab: 1
-  m_AttachEaseInTime: 0.15
-  m_MovementType: 0
-  m_VelocityDamping: 1
-  m_VelocityScale: 1
-  m_AngularVelocityDamping: 1
-  m_AngularVelocityScale: 1
-  m_TrackPosition: 1
-  m_SmoothPosition: 0
-  m_SmoothPositionAmount: 5
-  m_TightenPosition: 0.5
-  m_TrackRotation: 1
-  m_SmoothRotation: 0
-  m_SmoothRotationAmount: 5
-  m_TightenRotation: 0.5
-  m_ThrowOnDetach: 1
-  m_ThrowSmoothingDuration: 0.25
-  m_ThrowSmoothingCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 1
-  m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 1
-  m_AttachPointCompatibilityMode: 0
-  m_StartingSingleGrabTransformers: []
-  m_StartingMultipleGrabTransformers: []
-  m_AddDefaultGrabTransformers: 1
---- !u!54 &1119268831
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119268828}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &1128028841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7710,10 +7183,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2482899181748840356, guid: 7a0e815d1bba5804baaddc54f3b9d5bc, type: 3}
   m_PrefabInstance: {fileID: 1130963565}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &1134775363
 GameObject:
   m_ObjectHideFlags: 0
@@ -7933,81 +7402,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
---- !u!1 &1140613662 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9178353486837351355, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-  m_PrefabInstance: {fileID: 1070088654}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1140613663
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1140613662}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!59 &1140613664
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1140613662}
-  m_ConnectedBody: {fileID: 2088500238}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.010395997, z: 0.000000006266358}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_Limits:
-    min: -160
-    max: 7.54
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!65 &1140613666
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1140613662}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.003, y: 0.003, z: 0.003}
-  m_Center: {x: 0, y: 0, z: 0}
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &1144787523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8070,10 +7464,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1546792799064229384, guid: 2cfa9364efdc1ef4f895a0f625e04d4e, type: 3}
   m_PrefabInstance: {fileID: 1144787523}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &1163276101
 GameObject:
   m_ObjectHideFlags: 0
@@ -8215,11 +7605,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &1192164773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8229,11 +7614,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 16
-=======
-      value: 17
->>>>>>> parent of c12509b4 (adding assets)
       objectReference: {fileID: 0}
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8281,10 +7662,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &1192892977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8390,11 +7767,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &1210643276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8466,11 +7838,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: af03bf49c97547a4187deec5cb533373, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 11
-=======
-      value: 12
->>>>>>> parent of c12509b4 (adding assets)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: af03bf49c97547a4187deec5cb533373, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8584,10 +7952,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1546792799064229384, guid: 2cfa9364efdc1ef4f895a0f625e04d4e, type: 3}
   m_PrefabInstance: {fileID: 1255561756}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &1288102233
 GameObject:
   m_ObjectHideFlags: 0
@@ -9315,11 +8679,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &1349406476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9329,11 +8688,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 15
-=======
-      value: 16
->>>>>>> parent of c12509b4 (adding assets)
       objectReference: {fileID: 0}
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9443,10 +8798,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1546792799064229384, guid: 2cfa9364efdc1ef4f895a0f625e04d4e, type: 3}
   m_PrefabInstance: {fileID: 1362608129}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &1376967801
 GameObject:
   m_ObjectHideFlags: 0
@@ -9526,11 +8877,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 2.3}
   m_SizeDelta: {x: 114.3666, y: 20.3}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &1438290423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9769,88 +9115,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1546792799064229384, guid: 2cfa9364efdc1ef4f895a0f625e04d4e, type: 3}
   m_PrefabInstance: {fileID: 1490672653}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
---- !u!1 &1493927454 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4819001077394492298, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-  m_PrefabInstance: {fileID: 1070088654}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1493927455
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493927454}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!59 &1493927456
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493927454}
-  m_ConnectedBody: {fileID: 448776572}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.010144493, z: -0.0000000115067404}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_Limits:
-    min: -160
-    max: 7.54
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!65 &1493927458
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493927454}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.003, y: 0.003, z: 0.003}
-  m_Center: {x: 0, y: 0, z: 0}
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!4 &1499185232 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 941795855915014769, guid: 6e83f5ab37434794a89d1480c5d5b8d8, type: 3}
   m_PrefabInstance: {fileID: 1210643276}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &1518236116
 GameObject:
   m_ObjectHideFlags: 0
@@ -10819,15 +10088,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4bea505e03465314d937cf5e3b55e4f6, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-<<<<<<< HEAD
-      value: 11
-=======
       value: 13
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
-      value: 14
->>>>>>> parent of c12509b4 (adding assets)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4bea505e03465314d937cf5e3b55e4f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11133,11 +10394,6 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   rightRay: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &1726083910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11271,11 +10527,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 17
-=======
-      value: 18
->>>>>>> parent of c12509b4 (adding assets)
       objectReference: {fileID: 0}
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11323,10 +10575,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &1752520481
 GameObject:
   m_ObjectHideFlags: 0
@@ -11890,76 +11138,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3180256, y: 2.164399, z: 0.81614256}
   m_Center: {x: -0.011610985, y: 1.0338407, z: 0.0031769276}
---- !u!1 &1868740104 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -6522695966643703301, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-  m_PrefabInstance: {fileID: 1070088654}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1868740105
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868740104}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!59 &1868740106
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868740104}
-  m_ConnectedBody: {fileID: 1493927455}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.010563688, z: -0.000000015499602}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_Limits:
-    min: -160
-    max: 7.54
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!65 &1868740108
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868740104}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.003, y: 0.003, z: 0.003}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1919202215
 GameObject:
   m_ObjectHideFlags: 0
@@ -12354,15 +11532,7 @@ Transform:
   m_LocalScale: {x: 3.1, y: 1, z: 3.5}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_RootOrder: 12
-=======
   m_RootOrder: 20
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
-  m_RootOrder: 21
->>>>>>> parent of c12509b4 (adding assets)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1950561653
 MonoBehaviour:
@@ -12705,76 +11875,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4616165200164398447, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
   m_PrefabInstance: {fileID: 1758878160}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2036503312 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6905609870639353253, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-  m_PrefabInstance: {fileID: 1070088654}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &2036503313
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036503312}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!59 &2036503314
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036503312}
-  m_ConnectedBody: {fileID: 0}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.34103024, y: 2.387749, z: 12.24}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_Limits:
-    min: -160
-    max: 7.54
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!65 &2036503316
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036503312}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.003, y: 0.003, z: 0.003}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2038704370
 GameObject:
   m_ObjectHideFlags: 0
@@ -12912,11 +12012,6 @@ Transform:
   m_Father: {fileID: 2030632142}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &2069395884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12979,80 +12074,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7332859842689391681, guid: 73ce0b6ca73d70342a8bb50164448c1b, type: 3}
   m_PrefabInstance: {fileID: 2069395884}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
---- !u!1 &2088500237 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2480909740878747892, guid: 0f8b2f4aba6351540abbec467ce380a5, type: 3}
-  m_PrefabInstance: {fileID: 1070088654}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &2088500238
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088500237}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!59 &2088500239
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088500237}
-  m_ConnectedBody: {fileID: 1868740105}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.010396008, z: 0.000000012147184}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_Limits:
-    min: -160
-    max: 7.54
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!65 &2088500241
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2088500237}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.003, y: 0.003, z: 0.003}
-  m_Center: {x: 0, y: 0, z: 0}
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1 &2098009351
 GameObject:
   m_ObjectHideFlags: 0
@@ -13806,11 +12827,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of c12509b4 (adding assets)
 --- !u!1001 &2134014479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14200,11 +13216,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 14
-=======
-      value: 15
->>>>>>> parent of c12509b4 (adding assets)
       objectReference: {fileID: 0}
     - target: {fileID: 8489451238643552309, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14252,7 +13264,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00b76237e5287e44a92d09b16693c54e, type: 3}
-<<<<<<< HEAD
->>>>>>> parent of 586188f6 (add cable and failed)
-=======
->>>>>>> parent of c12509b4 (adding assets)
