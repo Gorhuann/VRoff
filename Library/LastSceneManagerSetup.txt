@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Art/Sci-Fi Styled Modular Pack/Example scenes/outpost with snow.unity
+- path: Assets/Scenes/Ouais.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
