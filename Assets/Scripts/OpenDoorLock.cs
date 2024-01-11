@@ -5,14 +5,14 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class OpenDoorLock : MonoBehaviour
 {
-    public string boolName = "Open";
+    public string boolName = "open";
     private bool isDoorOpen = false;
-    private Animator frameDoor2;
+    private Animator animator;
 
     private void Start()
     {
-        frameDoor2 = GetComponent<Animator>();
-        if (frameDoor2 == null)
+        animator = GetComponent<Animator>();
+        if (animator == null)
         {
             Debug.LogError("Animator component not found on the door GameObject.");
         }
@@ -29,9 +29,9 @@ public class OpenDoorLock : MonoBehaviour
 
     private void OpenDoor()
     {
-        if (frameDoor2 != null)
+        if (animator != null)
         {
-            frameDoor2.SetBool(boolName, true);
+            animator.SetBool(boolName, true);
         }
 
         isDoorOpen = true;

@@ -548,6 +548,113 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 1787271591187790008, guid: 426633a9e5cb5194595f371cbc5a8c51, type: 3}
   m_PrefabInstance: {fileID: 38815312}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &111842402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6964094281609426152, guid: c81d566d8053dc546bf21663f82453a9, type: 3}
+  m_PrefabInstance: {fileID: 1272776239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &111842404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111842402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c183e6cd19d6b4e45a6ee38f8a5c8d42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boolName: Open
+--- !u!114 &111842409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111842402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 2038704371}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &228592554
 GameObject:
   m_ObjectHideFlags: 0
@@ -3983,7 +4090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12dbfb68d4f95e48b7ab4b374bc1df5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exitDoorOpener: {fileID: 0}
+  exitDoorOpener: {fileID: 2032237275}
 --- !u!114 &2032237275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4863,7 +4970,7 @@ PrefabInstance:
     - target: {fileID: 430928945735578305, guid: ce1f010c1c4a3d54283d5ec49e40a98f, type: 3}
       propertyPath: doorLock
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 111842404}
     - target: {fileID: 430928945735578306, guid: ce1f010c1c4a3d54283d5ec49e40a98f, type: 3}
       propertyPath: m_Name
       value: Keypad
