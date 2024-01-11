@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class ExitDoorOpener : MonoBehaviour
 {
-    public string boolName = "open";
+    public string boolName = "Open";
     private bool isDoorOpen = false;
-    private Animator doorRightAnimator;
+    private Animator frameDoor1;
 
     private void Start()
     {
-        doorRightAnimator = GetComponent<Animator>();
-        if (doorRightAnimator == null)
+        frameDoor1 = GetComponent<Animator>();
+        if (frameDoor1 == null)
         {
             Debug.LogError("Animator component not found on the exit door GameObject.");
         }
@@ -27,9 +27,9 @@ public class ExitDoorOpener : MonoBehaviour
 
     private void OpenExitDoor()
     {
-        if (doorRightAnimator != null)
+        if (frameDoor1 != null)
         {
-            doorRightAnimator.SetBool(boolName, true);
+            frameDoor1.SetBool(boolName, true);
         }
 
         isDoorOpen = true;
